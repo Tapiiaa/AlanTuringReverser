@@ -1,4 +1,4 @@
-package Examen;
+package Examen.haltchecker;
 public class HaltChecker {
     public static boolean willHalt(String programCode, int startValue) {
         // Verifica si el programa tiene un límite claro de detención en el bucle
