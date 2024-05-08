@@ -1,4 +1,6 @@
 package Examen.analyzers;
 
-public class CodeAnalyzer {
+
+public interface CodeAnalyzer {
+    void analyze(String codeSegment) throws SyntaxException;
 }
